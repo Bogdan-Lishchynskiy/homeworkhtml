@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Questions</title>
+	</head>
+	<body>
+		<form method="POST" action="https://formspree.io/lishchynskiy91@gmail.com">
+			<h1>Questions</h1>
+			<fieldset>
+				<legend>Personal</legend>
+				<label> 
+				    Name: 
+				    <input type="text" name="somename">
+				</label>
+				<br>
+				<label>
+				    Surname:
+				    <input type="text" name="somesurname">
+				</label>
+				<br>
+				<label>
+				    Age:
+				    <input type="text" name="someage">
+				</label>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Foods&Drink</legend>
+				<p>1)Your favourite drinks?</p>
+				<select size="5" multiple="">
+					<option value="Cola" selected=""> Cola</option>
+					<option value="Sprite">Sprite</option>
+					<option value="Fanta">Fanta</option>
+					<option value="Juice">Juice</option>
+				</select>
+				<br>
+				
+				<p>2)Tea or Coffe?</p>
+				<label>
+				    <input type="radio" name="drinks" value="tea" checked>tea 
+				</label>
+				<br>
+				<label>
+				    <input type="radio" name="drinks" value="coffee">coffe
+				</label>
+				<br>
+				
+				<p>3)Vegetables or Fruits?</p>
+				<label>
+				    <input type="radio" name="foods" value="Vegetables" checked>Vegetables
+				</label>
+				<label>
+				    <input type="radio" name="foods" value="Fruits">Fruits
+				</label>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Cars</legend>
+				<p>4)Press your favourite mark of auto:</p>
+				<input type="text" name="car" />
+				<p>5)About your your favourite car:</p>
+				<textarea name="area" rows="4" cols="60" placeholder="About..."></textarea>
+			</fieldset>
+			
+			<fieldset>	
+				<legend>Films</legend>
+				<p>6)Select your favourite genre of films:</p>
+				<label>
+					<select name="films">
+						<option value="genre1">Comedy</option>
+						<option value="genre2">Drama</option>
+						<option value="genre3">Horor</option>
+						<option value="genre4">Fantasy</option>
+					</select>
+				</label>
+			</fieldset>
+		    <input type="submit" value="Відправити">
+		    <input type="reset" value="Скасувати">
+		</form>
+		<a href="index.html">Semantic elements</a>
+	</body>
+</html>
